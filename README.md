@@ -18,7 +18,7 @@
 
 - ⌨️ Building **AulaToolkit**, an open-source control app for AULA keyboards and mice
 - 📺 Shipping **Seyirva**, a live TV app for Google TV and Android TV
-- 💬 Part of the development team behind **[Ciklet](https://github.com/CikletApp)**
+- <img src="https://avatars.githubusercontent.com/u/289391166?s=64&v=4" width="16" height="16" align="center" alt="" /> Part of the development team behind **[Ciklet](https://github.com/CikletApp)**
 
 ## Featured projects
 
@@ -35,9 +35,9 @@
       <a href="https://github.com/livvaa/seyirva-releases/releases"><img src="https://img.shields.io/github/downloads/livvaa/seyirva-releases/total?style=for-the-badge&label=downloads&color=8a5a2b" alt="Downloads" /></a>
     </td>
     <td width="50%" valign="top">
-      <h3>💬 Ciklet</h3>
+      <h3><img src="https://avatars.githubusercontent.com/u/289391166?s=64&v=4" width="22" height="22" align="top" alt="" /> Ciklet</h3>
       <p>Chat with anyone over text, voice and video channels. I work on it as part of the development team.</p>
-      <a href="https://github.com/CikletApp/ciklet-desktop-releases/releases/latest"><img src="https://img.shields.io/github/v/release/CikletApp/ciklet-desktop-releases?style=for-the-badge&label=download%20for%20windows&color=0e7c86" alt="Download Ciklet for Windows" /></a>
+      <a href="https://github.com/CikletApp/ciklet-desktop-releases/releases/latest"><img src="https://img.shields.io/github/v/release/CikletApp/ciklet-desktop-releases?style=for-the-badge&label=download&color=0e7c86" alt="Download Ciklet for Windows" /></a>
       <a href="https://github.com/CikletApp"><img src="https://img.shields.io/badge/GitHub-CikletApp-8a5a2b?style=for-the-badge&logo=github" alt="CikletApp on GitHub" /></a>
     </td>
   </tr>
