@@ -16,22 +16,27 @@
 
 ## About me
 
-- ⌨️ Building **AulaToolkit**, an open-source control app for AULA keyboards and mice
-- 📺 Shipping **Seyirva**, a live TV app for Google TV and Android TV
+- <img src="assets/aulatoolkit.png" width="16" height="16" align="center" alt="" /> Building **AulaToolkit**, an open-source control app for AULA keyboards and mice
+- <img src="assets/seyirva.png" width="16" height="16" align="center" alt="" /> Shipping **Seyirva**, a live TV app for Google TV and Android TV
 - <img src="https://avatars.githubusercontent.com/u/289391166?s=64&v=4" width="16" height="16" align="center" alt="" /> Part of the development team behind **[Ciklet](https://github.com/CikletApp)**
 
 ## Featured projects
 
-<p align="center">
-  <a href="https://github.com/livvaa/AulaToolkit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=livvaa&repo=AulaToolkit&theme=transparent&hide_border=true&title_color=0e9aa7&icon_color=0e9aa7&text_color=8b949e" alt="AulaToolkit" /></a>
-</p>
-
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3><img src="assets/aulatoolkit.png" width="22" height="22" align="top" alt="" /> AulaToolkit</h3>
+      <p>Unofficial open-source control app for AULA keyboards and mice: lighting, keys, macros, DPI, OSD and more.</p>
+      <a href="https://github.com/livvaa/AulaToolkit/releases/latest"><img src="https://img.shields.io/github/v/release/livvaa/AulaToolkit?style=for-the-badge&label=download&color=0e7c86" alt="Download AulaToolkit" /></a>
+      <a href="https://github.com/livvaa/AulaToolkit/releases"><img src="https://img.shields.io/github/downloads/livvaa/AulaToolkit/total?style=for-the-badge&label=downloads&color=8a5a2b" alt="Downloads" /></a>
+      <a href="https://github.com/livvaa/AulaToolkit"><img src="https://img.shields.io/github/stars/livvaa/AulaToolkit?style=for-the-badge&label=stars&color=0e7c86" alt="Stars" /></a>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3>📺 Seyirva</h3>
+      <h3><img src="assets/seyirva.png" width="22" height="22" align="top" alt="" /> Seyirva</h3>
       <p>Live TV app for Google TV and Android TV, built with React and Capacitor.</p>
-      <a href="https://github.com/livvaa/seyirva-releases/releases/latest"><img src="https://img.shields.io/github/v/release/livvaa/seyirva-releases?style=for-the-badge&label=latest&color=0e7c86" alt="Latest release" /></a>
+      <a href="https://github.com/livvaa/seyirva-releases/releases/latest"><img src="https://img.shields.io/github/v/release/livvaa/seyirva-releases?style=for-the-badge&label=download&color=0e7c86" alt="Download Seyirva" /></a>
       <a href="https://github.com/livvaa/seyirva-releases/releases"><img src="https://img.shields.io/github/downloads/livvaa/seyirva-releases/total?style=for-the-badge&label=downloads&color=8a5a2b" alt="Downloads" /></a>
     </td>
     <td width="50%" valign="top">
