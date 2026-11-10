@@ -17,15 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=#0e7c86&color_dots=#ebedf0,#b9e3e6,#6cc4cb,#1f9aa5,#0e6f78
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#3fb6c0&color_dots=#161b22,#0f3a3e,#14666d,#1f9aa5,#5fd3dc
-
       - name: Generate stat cards
+        # runs before snk: its Docker step creates dist/ as root
         run: node scripts/cards.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -33,6 +26,14 @@ jobs:
           PROFILE_USER: ${{ github.repository_owner }}
           PROFILE_NAME: NADYR
           PROFILE_TZ_OFFSET: "3"
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#0e7c86&color_dots=#ebedf0,#b9e3e6,#6cc4cb,#1f9aa5,#0e6f78
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#3fb6c0&color_dots=#161b22,#0f3a3e,#14666d,#1f9aa5,#5fd3dc
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
