@@ -1,8 +1,8 @@
-name: Generate snake animation
+name: Generate profile cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # every day at 00:00 UTC
+    - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:
   push:
     branches: [main]
@@ -13,8 +13,10 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:
@@ -22,6 +24,15 @@ jobs:
           outputs: |
             dist/github-snake.svg?color_snake=#0e7c86&color_dots=#ebedf0,#b9e3e6,#6cc4cb,#1f9aa5,#0e6f78
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#3fb6c0&color_dots=#161b22,#0f3a3e,#14666d,#1f9aa5,#5fd3dc
+
+      - name: Generate stat cards
+        run: node scripts/cards.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_DIR: dist
+          PROFILE_USER: ${{ github.repository_owner }}
+          PROFILE_NAME: NADYR
+          PROFILE_TZ_OFFSET: "3"
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

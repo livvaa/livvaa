@@ -57,16 +57,28 @@
 ## GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=livvaa&show_icons=true&hide_border=true&theme=transparent&title_color=0e9aa7&icon_color=0e9aa7&text_color=8b949e" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=livvaa&layout=compact&hide_border=true&theme=transparent&title_color=0e9aa7&text_color=8b949e" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/livvaa/livvaa/output/stats-dark.svg" />
+    <img src="https://raw.githubusercontent.com/livvaa/livvaa/output/stats.svg" width="49%" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/livvaa/livvaa/output/langs-dark.svg" />
+    <img src="https://raw.githubusercontent.com/livvaa/livvaa/output/langs.svg" width="49%" alt="Most used languages" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=livvaa&hide_border=true&theme=transparent&ring=0e9aa7&fire=d49a62&currStreakLabel=0e9aa7" alt="Contribution streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/livvaa/livvaa/output/streak-dark.svg" />
+    <img src="https://raw.githubusercontent.com/livvaa/livvaa/output/streak.svg" width="100%" alt="Contribution streak" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=livvaa&bg_color=00000000&color=8b949e&line=0e9aa7&point=d49a62&area=true&area_color=0e9aa7&hide_border=true&custom_title=Contribution%20activity" alt="Contribution activity" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/livvaa/livvaa/output/activity-dark.svg" />
+    <img src="https://raw.githubusercontent.com/livvaa/livvaa/output/activity.svg" width="100%" alt="Contribution activity" />
+  </picture>
 </p>
 
 <p align="center">
