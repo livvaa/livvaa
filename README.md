@@ -37,6 +37,7 @@
     <td width="50%" valign="top">
       <h3>💬 Ciklet</h3>
       <p>Chat with anyone over text, voice and video channels. I work on it as part of the development team.</p>
+      <a href="https://github.com/CikletApp/ciklet-desktop-releases/releases/latest"><img src="https://img.shields.io/github/v/release/CikletApp/ciklet-desktop-releases?style=for-the-badge&label=download%20for%20windows&color=0e7c86" alt="Download Ciklet for Windows" /></a>
       <a href="https://github.com/CikletApp"><img src="https://img.shields.io/badge/GitHub-CikletApp-8a5a2b?style=for-the-badge&logo=github" alt="CikletApp on GitHub" /></a>
     </td>
   </tr>
