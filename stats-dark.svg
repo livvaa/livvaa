@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="195" viewBox="0 0 440 195" fill="none" role="img">
+<style>
+  text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .title { font-size: 18px; font-weight: 600; fill: #3fb6c0; }
+  .lbl { font-size: 14px; fill: #e6edf3; }
+  .val { font-size: 14px; font-weight: 700; fill: #e6edf3; }
+  .muted { font-size: 12px; fill: #8b949e; }
+  .rise { animation: rise .6s ease-out both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  .ring { stroke-dashoffset: 0; animation: ring 1.4s ease-out both; } @keyframes ring { from { stroke-dashoffset: 276.5; } to { stroke-dashoffset: 0; } }
+  
+</style>
+<text x="25" y="35" class="title rise">NADYR's GitHub Stats</text><g class="rise" style="animation-delay:150ms"><circle cx="31" cy="65" r="4" fill="#3fb6c0"/><text x="45" y="70" class="lbl">Total stars earned:</text><text x="250" y="70" class="val" text-anchor="end">18</text></g><g class="rise" style="animation-delay:270ms"><circle cx="31" cy="90" r="4" fill="#3fb6c0"/><text x="45" y="95" class="lbl">Commits (last year):</text><text x="250" y="95" class="val" text-anchor="end">122</text></g><g class="rise" style="animation-delay:390ms"><circle cx="31" cy="115" r="4" fill="#3fb6c0"/><text x="45" y="120" class="lbl">Pull requests:</text><text x="250" y="120" class="val" text-anchor="end">5</text></g><g class="rise" style="animation-delay:510ms"><circle cx="31" cy="140" r="4" fill="#3fb6c0"/><text x="45" y="145" class="lbl">Issues:</text><text x="250" y="145" class="val" text-anchor="end">1</text></g><g class="rise" style="animation-delay:630ms"><circle cx="31" cy="165" r="4" fill="#3fb6c0"/><text x="45" y="170" class="lbl">Contributed to:</text><text x="250" y="170" class="val" text-anchor="end">5</text></g><g transform="translate(345 112)">
+    <circle r="44" stroke="#1c2a2d" stroke-width="7"/>
+    <circle r="44" stroke="#d49a62" stroke-width="7" stroke-linecap="round" transform="rotate(-90)" stroke-dasharray="276.5" class="ring"/>
+    <text y="4" text-anchor="middle" class="val" style="font-size:22px">143</text>
+    <text y="24" text-anchor="middle" class="muted">past year</text>
+  </g>
+</svg>
