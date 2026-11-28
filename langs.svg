@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="195" viewBox="0 0 440 195" fill="none" role="img">
+<style>
+  text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .title { font-size: 18px; font-weight: 600; fill: #0e7c86; }
+  .lbl { font-size: 14px; fill: #1f2328; }
+  .val { font-size: 14px; font-weight: 700; fill: #1f2328; }
+  .muted { font-size: 12px; fill: #59636e; }
+  .rise { animation: rise .6s ease-out both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  .grow { transform-origin: 25px 60px; animation: grow 1s ease-out both; } @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  
+</style>
+<text x="25" y="35" class="title rise">Most used languages</text><defs><clipPath id="bar"><rect x="25" y="55" width="390" height="10" rx="5"/></clipPath></defs><g clip-path="url(#bar)" class="grow"><rect x="25.00" y="55" width="296.08" height="10" fill="#3178c6"/><rect x="320.58" y="55" width="46.74" height="10" fill="#89e051"/><rect x="366.82" y="55" width="22.34" height="10" fill="#f1e05a"/><rect x="388.66" y="55" width="12.60" height="10" fill="#663399"/><rect x="400.75" y="55" width="7.59" height="10" fill="#012456"/><rect x="407.85" y="55" width="7.65" height="10" fill="#8b949e"/></g><g class="rise" style="animation-delay:300ms"><circle cx="30" cy="93" r="5" fill="#3178c6"/><text x="43" y="98" class="lbl">TypeScript</text><text x="210" y="98" class="muted" text-anchor="end">75.8%</text></g><g class="rise" style="animation-delay:410ms"><circle cx="235" cy="93" r="5" fill="#89e051"/><text x="248" y="98" class="lbl">Shell</text><text x="415" y="98" class="muted" text-anchor="end">11.9%</text></g><g class="rise" style="animation-delay:520ms"><circle cx="30" cy="123" r="5" fill="#f1e05a"/><text x="43" y="128" class="lbl">JavaScript</text><text x="210" y="128" class="muted" text-anchor="end">5.6%</text></g><g class="rise" style="animation-delay:630ms"><circle cx="235" cy="123" r="5" fill="#663399"/><text x="248" y="128" class="lbl">CSS</text><text x="415" y="128" class="muted" text-anchor="end">3.1%</text></g><g class="rise" style="animation-delay:740ms"><circle cx="30" cy="153" r="5" fill="#012456"/><text x="43" y="158" class="lbl">PowerShell</text><text x="210" y="158" class="muted" text-anchor="end">1.8%</text></g><g class="rise" style="animation-delay:850ms"><circle cx="235" cy="153" r="5" fill="#8b949e"/><text x="248" y="158" class="lbl">Other</text><text x="415" y="158" class="muted" text-anchor="end">1.8%</text></g>
+</svg>
